@@ -21,7 +21,7 @@ export interface Monster {
 
 export async function fetchAllMonsters(page: number = 1) {
 
-    const response = await fetch(`http://localhost:3000/all?page=${page}`)
+    const response = await fetch(`https://mh-rise-api.onrender.com//all?page=${page}`)
 
     if (!response.ok) throw new Error("No se han podido cargar los monstruos")
 
