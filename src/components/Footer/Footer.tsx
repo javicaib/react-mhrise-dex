@@ -1,5 +1,5 @@
 import "./Footer.css";
 function Footer() {
-  return <footer className="footer">Hecho con ❤ por @javidev +1</footer>;
+  return <footer className="footer">Hecho con ❤ por @javidev </footer>;
 }
 export default Footer;
