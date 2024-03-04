@@ -1,0 +1,16 @@
+.container {
+  width: 80%;
+  padding: 40px 0;
+}
+.card-container {
+  padding-bottom: 40px;
+  row-gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  & h4 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
